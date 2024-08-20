@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./basics.css">
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./index.js"></script>
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+  <main>
+    <h1 class="title">splitter</h1>
+
+    <div class="card-grid">
+
+      <!-- Upper and left side of the card -->
+      <div class="first-section">
+
+        <!-- Input total bill -->
+        <p class="input-title">Bill</p>
+        <div class="input-field-wrapper">
+          <input type="number" placeholder="0" class="input-field">
+        </div>
+
+        <!-- Choose tip amount -->
+        <p class="input-title">Select Tip %</p>
+        <div class="tip-select-grid">
+          <button class="tip-amount">5%</button>
+          <button class="tip-amount">10%</button>
+          <button class="tip-amount">15%</button>
+          <button class="tip-amount">25%</button>
+          <button class="tip-amount">50%</button>
+          <input type="number" placeholder="Custom" class="custom-tip">
+        </div>
+
+        <!-- Input total people -->
+        <p class="input-title">Number of People</p>
+        <div class="input-field-wrapper">
+          <input type="number" placeholder="0" class="input-field">
+        </div>
+
+      </div>
+
+      <div class="second-section">
+
+        <section class="flex-container">
+          <div class="all-text">
+            <p class="text-upper">Tip Amount</p>
+            <p class="text-lower">/ person</p>
+          </div>
+            <p class="text-amount">$4.27</p>
+        </section>
+
+        <section class="flex-container">
+          <div class="all-text">
+            <p class="text-upper">Total</p>
+            <p class="text-lower">/ person</p>   
+          </div>
+          <p class="text-amount">$32.79</p>
+        </section>
+
+        <button class="reset-btn">Reset</button>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>
